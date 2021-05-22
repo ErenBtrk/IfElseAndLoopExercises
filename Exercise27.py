@@ -1,22 +1,21 @@
 '''
-28. Write a Python program to print alphabet pattern 'U'.
+27. Write a Python program to print alphabet pattern 'T'.
 Expected Output:
-
- *   *                                                                  
- *   *                                                                  
- *   *                                                                  
- *   *                                                                  
- *   *                                                                  
- *   *                                                                  
-  *** 
+ *****                                                                  
+   *                                                                    
+   *                                                                    
+   *                                                                    
+   *                                                                    
+   *                                                                    
+   *  
 '''
 
 str = ""
 
 for row in range(7):
-    if(row == 6):
-        str += " *** \n"
+    if(row == 0):
+        str += "*****\n"
     else:
-        str += "*   *\n"
+        str += "  *  \n"
 
 print(str)

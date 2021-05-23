@@ -30,13 +30,13 @@ monthIndex = months.index(month)
 print(monthIndex)
 
 if( (monthIndex >= 0 and monthIndex < 2 ) or monthIndex == 11):
-    print("season is winter.")
+    print("Season is winter.")
 elif(monthIndex >= 2 and monthIndex <5):
-    print("season is spring.")
+    print("Season is spring.")
 elif(monthIndex >= 5 and monthIndex <8):
-    print("season is summer.")
+    print("Season is summer.")
 else:
-    print("season is autumn.")
+    print("Season is autumn.")
     
 
         
